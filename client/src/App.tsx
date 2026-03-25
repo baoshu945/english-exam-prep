@@ -37,7 +37,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <WouterRouter base={import.meta.env.BASE_URL}>
+          <WouterRouter base="/">
             <Router />
           </WouterRouter>
         </TooltipProvider>
